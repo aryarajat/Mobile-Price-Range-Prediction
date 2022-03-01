@@ -28,7 +28,7 @@ In this project, we are going to explore and analyze a dataset which contains sp
 * Wifi - Has wifi or not
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).ld text
 ## What is the business use case of your project?
-Users can verify their trip details (distance, duration) and measure of bodily activities (burnt calories). With this kind of smart technology and convenience, the use of Rental bikes is increasing every day. So, there is a need to manage the bike rental demand and manage the continuous and convenient service for the users. This study proposes a machine learning based approach including weather data to predict whole city public bike demand. A ML model is used to predict the number of rental bikes needed at each hour.
+Cost prediction is the very important factor of marketing and business. This project assists new businesses in determining whether or not their customers require specific features. It is difficult for a new company to determine what pricing range to debut their mobile phones in and what features to offer in order to be successful. This concept provides companies with a wider view, allowing them to expand more quickly.
 
 ## Conclusion
 * First, we run Data Wrangling on our model to ensure that there are no null or duplicate entries in our dataset. Because there are so few outliers in the independent variable front camera, we can ignore it because it adds no complexity to our model.
