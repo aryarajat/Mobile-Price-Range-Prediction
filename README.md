@@ -29,6 +29,32 @@ In this project, we are going to explore and analyze a dataset which contains sp
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).ld text
 ## What is the business use case of your project?
 Cost prediction is the very important factor of marketing and business. This project assists new businesses in determining whether or not their customers require specific features. It is difficult for a new company to determine what pricing range to debut their mobile phones in and what features to offer in order to be successful. This concept provides companies with a wider view, allowing them to expand more quickly.
+## Data Visualization
+### 1) Heatmap
+![image](https://user-images.githubusercontent.com/85746056/156106085-e5137a1e-7ecc-4239-9f79-fb109a4b9735.png)
+* Feature variable Ram is highly correlated with the dependent variable. The variable Ram has more impact on the dependent variable as compare to other variables.
+* The independent variable Front Camera and Primary camera are moderately correlated with each other. Similarly, 3G and 4G are also moderately correlated with each other.
+* Screen width and screen height are also moderately correlated with each other. Similarly, pixel width and pixel height are moderately correlated with each other.
+* We can see that the except ram the other variables battery_power, px_height, px_width also have some impact on the target variable.
+### 2) Relationship between the Price Range and Internal Memory
+![image](https://user-images.githubusercontent.com/85746056/156106231-d5602167-3730-49f2-b579-f74a90ff9d10.png)
+* We can see from this jointplot of int memory and price range that price range does not steadily grow as internal memory increases. As a result, we can conclude that int memory has little influence on prediction.
+### 3) Relation between the Clock Speed and Price Range
+![image](https://user-images.githubusercontent.com/85746056/156106310-4a91d05b-af49-43f6-857e-5a5a543e298b.png)
+* From this Point plot of clock speed versus price range, we can observe that price range does not progressively increase as clock speed increases. As a result, we can conclude that clock speed had little impact on the prediction.
+### 4) The Number of Cores
+![image](https://user-images.githubusercontent.com/85746056/156106388-310ddf00-fcdd-402e-9021-a95fde8ffb95.png)
+* According to the above countplot, the quadcore(4 cores) category has the most mobiles.
+* In comparison to other processors, the number of mobiles that use hexacore(6 core) CPUs is lower.
+### 5) Relationship between Mobile_Weight and Price Range
+![image](https://user-images.githubusercontent.com/85746056/156106433-182809a7-a01d-4298-8701-684b743b07e1.png)
+* According to the boxplot above, the very high price group contains a lighter phone than the other pricing categories.
+
+* The average weight of a mobile phone is close to 140 g.
+### 6) Relation between Price Range and Battery Power
+![image](https://user-images.githubusercontent.com/85746056/156106665-cba22561-7acb-410b-92e6-1481bd198789.png)
+* We can observe from this Boxplot of battery power vs. price range that price range gradually increases as battery power increases. As a result, we can claim that battery power has a positive influence on prediction
+* Average battery power is near about 1200 mah.
 
 ## Conclusion
 * First, we run Data Wrangling on our model to ensure that there are no null or duplicate entries in our dataset. Because there are so few outliers in the independent variable front camera, we can ignore it because it adds no complexity to our model.
