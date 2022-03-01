@@ -27,3 +27,5 @@ In this project, we are going to explore and analyze a dataset which contains sp
 * Touch_screen - Has touch screen or not
 * Wifi - Has wifi or not
 * Price_range - This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).ld text
+## What is the business use case of your project?
+Users can verify their trip details (distance, duration) and measure of bodily activities (burnt calories). With this kind of smart technology and convenience, the use of Rental bikes is increasing every day. So, there is a need to manage the bike rental demand and manage the continuous and convenient service for the users. This study proposes a machine learning based approach including weather data to predict whole city public bike demand. A ML model is used to predict the number of rental bikes needed at each hour.
